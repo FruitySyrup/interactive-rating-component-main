@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
+html {
 
-:root {
+    --font-family: "Overpass", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 
     --orange: hsl(25, 97%, 53%);
     --white: hsl(0, 0%, 100%);
@@ -8,4 +12,25 @@
     --medium-grey: hsl(216, 12%, 54%);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    font-size: 1.5rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+section.rate-me-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    max-width: 500px;
+}
+
+section.rate-me-numbers div {
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
 }
