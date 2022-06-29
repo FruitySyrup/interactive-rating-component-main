@@ -9,35 +9,54 @@ html {
     --orange: hsl(25, 97%, 53%);
     --white: hsl(0, 0%, 100%);
     --light-grey: hsl(217, 12%, 63%);
-    --medium-grey: hsl(216, 12%, 54%);
+    --medium-grey: rgba(124, 135, 152, 0.163);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
 }
 
 body {
     background-color: var(--very-dark-blue);
-    color: var(--white);
+    color: var(--light-grey);
     font-size: 1.5rem;
+    line-height: 2rem;
     width: 100%;
     min-height: 100vh;
 }
 
+h1 {
+    font-size: 2.4rem;
+    color: var(--white);
+}
+
 section.rate-me-page {
+    background-color: var(--dark-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 500px;
+    border-radius: 30px;
+    padding: 15px;
 }
 
 div.rate-me-numbers {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 div.rate-me-numbers div {
-    background-color: var(--dark-blue);
-    border-radius: 30%;
-    margin: 5px;
+    background-color: var(--medium-grey);
+    border-radius: 50%;
+    padding: 10px 15px;
     color: var(--light-grey);
+}
+
+a {
+    width: 100%;
+    color: var(--white);
+    text-transform: uppercase;
+    background-color: var(--orange);
+    border-radius: 30px;
+    text-align: center;
 }
