@@ -73,6 +73,7 @@ div.rate-me-numbers div {
 div.rate-me-numbers div:hover {
     background-color: var(--orange);
     color: var(--white);
+    cursor: pointer;
 }
 
 a {
