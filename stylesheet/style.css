@@ -46,7 +46,7 @@ div.star-img img {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 600;
     color: var(--white);
 }
@@ -65,8 +65,8 @@ div.rate-me-numbers {
 div.rate-me-numbers div {
     background-color: var(--medium-grey);
     border-radius: 50%;
-    padding: 2rem;
-    line-height: 0;
+    padding: 1rem 1.5rem;
+    /* line-height: 1; */
     color: var(--light-grey);  
 }
 
