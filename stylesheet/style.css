@@ -41,7 +41,7 @@ section.rate-me-page {
 div.star-img img {
     background-color: var(--medium-grey);
     border-radius: 50%;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -65,8 +65,8 @@ div.rate-me-numbers {
 div.rate-me-numbers div {
     background-color: var(--medium-grey);
     border-radius: 50%;
-    padding: 1rem 1.5rem;
-    /* line-height: 1; */
+    padding: 1.5rem;
+    /* line-height: 0; */
     color: var(--light-grey);  
 }
 
