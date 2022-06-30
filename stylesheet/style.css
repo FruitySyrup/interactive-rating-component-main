@@ -65,8 +65,9 @@ div.rate-me-numbers {
 div.rate-me-numbers div {
     background-color: var(--medium-grey);
     border-radius: 50%;
-    padding: 1.5rem;
-    /* line-height: 0; */
+    padding: 2.1rem;
+    /* line-height is what changed the padding from oval to circle */
+    line-height: .6rem;
     color: var(--light-grey);  
 }
 
