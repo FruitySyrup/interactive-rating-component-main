@@ -40,12 +40,13 @@ section.rate-me-page {
     padding: 3rem;
 }
 
-div.star-img img {
+div.bubble img {
     background-color: var(--blubble-color);
     border-radius: 50%;
     padding: 1.5rem;
     margin-bottom: 2rem;
 }
+
 
 h1 {
     font-size: 2.8rem;
@@ -92,4 +93,19 @@ a {
 a:hover {
     color: var(--orange);
     background-color: var(--white);
+}
+
+/* rating-state.html css */
+
+.bubble {
+    background-color: var(--blubble-color);
+    color: var(--orange);
+    border-radius: 30px;
+    padding: .5rem 1.5rem;
+    margin: 2rem;
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 1rem;
 }
