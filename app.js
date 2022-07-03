@@ -1,7 +1,6 @@
 
 const selectedRating = document.querySelectorAll("[data-rating]");
 
-const selectedRatingSelected = document.querySelectorAll(".selected");
 
 
 selectedRating.forEach((selectedRating) => {
@@ -9,10 +8,12 @@ selectedRating.forEach((selectedRating) => {
 		if (selectedRating.classList.contains("selected")) {
 			selectedRating.classList.remove("selected");
 		} else {
-			selectedRatingWithIsOpen.forEach((selectedRatingWithIsOpen) => {
-				selectedRatingWithIsOpen.classList.remove("selected");
+            const selectedRatingSelected = document.querySelectorAll(".selected");
+
+			selectedRatingSelected.forEach((selectedRatingSelected) => {
+				selectedRatingSelected.classList.remove("selected");
 			});
-			selectedRating.classList.add(".selected");
+			selectedRating.classList.add("selected");
 		}
 	});
 });
