@@ -102,7 +102,7 @@ a:hover {
 
 /* rating-state.html css */
 
-.bubble {
+.bubble p {
     background-color: var(--blubble-color);
     color: var(--orange);
     border-radius: 30px;
