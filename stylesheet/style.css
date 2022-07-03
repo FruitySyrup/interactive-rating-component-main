@@ -80,8 +80,9 @@ div.rate-me-numbers div:hover {
     cursor: pointer;
 }
 
-div.rate-me-numbers.selected {
+div.rate-me-numbers div.selected {
     background-color: var(--light-grey);
+    color: var(--white);
 }
 
 
