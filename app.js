@@ -21,8 +21,9 @@ selectedRating.forEach((selectedRating) => {
 // code for thank you page to show what rating you selected
 
 const reportedRating = document.querySelector('#Selected-Rating');
-const submittedRating = reportedRating.getElementsByClassName("div.selected");
+const submittedRating = document.getElementsByClassName("selected").data;
 const ratedText = document.querySelector("span");
 
-ratedText.textContent = submittedRating.dataset.rating;
+ratedText.textContent = submittedRating;
 
+console.log(submittedRating);
