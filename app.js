@@ -20,10 +20,11 @@ selectedRating.forEach((selectedRating) => {
 
 // code for thank you page to show what rating you selected
 
-const reportedRating = document.querySelector('#Selected-Rating');
-const submittedRating = document.getElementsByClassName("selected").data;
+// const reportedRating = document.querySelector('#Selected-Rating');
+const submittedRating = document.getElementsByClassName(".selected");
+let reportedRating = submittedRating.dataset.rating;
 const ratedText = document.querySelector("span");
 
-ratedText.textContent = submittedRating;
+ratedText.textContent = reportedRating;
 
-console.log(submittedRating);
+console.log(reportedRating);

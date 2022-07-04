@@ -40,6 +40,10 @@ section.rate-me-page {
     padding: 3rem;
 }
 
+section.rate-me-page.hidden {
+    display: none;
+}
+
 div.bubble img {
     background-color: var(--blubble-color);
     border-radius: 50%;
