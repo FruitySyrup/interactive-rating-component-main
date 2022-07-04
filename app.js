@@ -28,3 +28,17 @@ buttonTag.addEventListener("click", () => {
 	frontPage.classList.toggle("hidden")
 	thankyouPage.style.display = "flex"
 });
+
+// span tag is changed to selected div/date-rating value
+
+const spanTag = document.querySelector("span");
+const selectedRatingSelected = document.querySelectorAll(".selected");
+let dataValue = selectedRatingSelected.getElementbyID("rating");
+
+selectedRatingSelected.addEventListener("click", () => {
+	spanTag.textContent = dataValue;
+});
+	// spanTag.textContent = selectedRatingSelecteda;
+
+
+
