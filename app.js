@@ -18,13 +18,13 @@ selectedRating.forEach((selectedRating) => {
 	});
 });
 
-// code for thank you page to show what rating you selected
+// when click submit remove hidden classes from second rate-me-page section
 
-// const reportedRating = document.querySelector('#Selected-Rating');
-const submittedRating = document.getElementsByClassName(".selected");
-let reportedRating = submittedRating.dataset.rating;
-const ratedText = document.querySelector("span");
+const buttonTag = document.querySelector("a");
+const frontPage = document.querySelector("section.rate-me-page");
+const thankyouPage = document.querySelector("section.rate-me-page.hidden");
 
-ratedText.textContent = reportedRating;
-
-console.log(reportedRating);
+buttonTag.addEventListener("click", () => {
+	frontPage.classList.toggle("hidden")
+	thankyouPage.style.display = "flex"
+});
