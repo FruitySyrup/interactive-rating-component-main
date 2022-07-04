@@ -105,9 +105,9 @@ a:hover {
     background-color: var(--white);
 }
 
-/* rating-state.html css */
+/* Thank you part css */
 
-.bubble p {
+ .bubble-thank-you {
     background-color: var(--blubble-color);
     color: var(--orange);
     border-radius: 30px;
