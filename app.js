@@ -1,7 +1,7 @@
 
+// code for selecting rating
+
 const selectedRating = document.querySelectorAll("[data-rating]");
-
-
 
 selectedRating.forEach((selectedRating) => {
 	selectedRating.addEventListener("click", () => {
@@ -17,3 +17,12 @@ selectedRating.forEach((selectedRating) => {
 		}
 	});
 });
+
+// code for thank you page to show what rating you selected
+
+const reportedRating = document.querySelector('#Selected-Rating');
+const submittedRating = reportedRating.getElementsByClassName("div.selected");
+const ratedText = document.querySelector("span");
+
+ratedText.textContent = submittedRating.dataset.rating;
+
