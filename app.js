@@ -32,11 +32,11 @@ buttonTag.addEventListener("click", () => {
 // span tag is changed to selected div/date-rating value
 
 const spanTag = document.querySelector("span");
-const selectedRatingSelected = document.querySelectorAll(".selected");
-let dataValue = selectedRatingSelected.getElementbyID("rating");
+// const selectedRating = document.querySelectorAll("[data-rating]")
+let dataValue = selectedRating.getElementsbyClassName(".selected");
 
 selectedRatingSelected.addEventListener("click", () => {
-	spanTag.textContent = dataValue;
+	spanTag.textContent = selectedRating.dataset.rating;
 });
 	// spanTag.textContent = selectedRatingSelecteda;
 
