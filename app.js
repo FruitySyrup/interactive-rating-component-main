@@ -3,6 +3,7 @@
 
 const selectedRating = document.querySelectorAll("[data-rating]");
 
+
 selectedRating.forEach((selectedRating) => {
 	selectedRating.addEventListener("click", () => {
 		if (selectedRating.classList.contains("selected")) {
@@ -32,13 +33,15 @@ buttonTag.addEventListener("click", () => {
 // span tag is changed to selected div/date-rating value
 
 const spanTag = document.querySelector("span");
+const ratingTag = document.querySelectorAll('#rating');
+// const dataValue = div.thankyouPage.querySelectorAll('.selected')
 // const selectedRating = document.querySelectorAll("[data-rating]")
-let dataValue = selectedRating.getElementsbyClassName(".selected");
+// let dataValue = selectedRating.getElementsbyClassName(".selected");
 
-selectedRatingSelected.addEventListener("click", () => {
-	spanTag.textContent = selectedRating.dataset.rating;
-});
+
+	spanTag.textContent = ratingTag.dataset.rating;
+
 	// spanTag.textContent = selectedRatingSelecteda;
 
 
-
+console.log(ratingTag.dataset.rating);
