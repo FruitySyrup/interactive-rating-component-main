@@ -60,7 +60,7 @@ h1 {
 
 
 
-div.rate-me-numbers {
+ul.rate-me-numbers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +69,7 @@ div.rate-me-numbers {
     margin-bottom: 2rem;
 }
 
-div.rate-me-numbers div {
+ul.rate-me-numbers li {
     background-color: var(--blubble-color);
     border-radius: 50%;
     padding: 2.1rem;
@@ -78,19 +78,19 @@ div.rate-me-numbers div {
     color: var(--light-grey);  
 }
 
-div.rate-me-numbers div:hover {
+ul.rate-me-numbers li:hover {
     background-color: var(--orange);
     color: var(--white);
     cursor: pointer;
 }
 
-div.rate-me-numbers div.selected {
+ul.rate-me-numbers li.selected {
     background-color: var(--light-grey);
     color: var(--white);
 }
 
 
-a {
+button {
     width: 100%;
     padding: 1rem;
     color: var(--white);
@@ -100,7 +100,7 @@ a {
     text-align: center;
 }
 
-a:hover {
+button:hover {
     color: var(--orange);
     background-color: var(--white);
 }
