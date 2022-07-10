@@ -19,7 +19,7 @@ function checked(e) {
 
 function submit(e) {
     if (selectedNumber) {
-        document.getElementById(".selected-rating").innerText = selectedNumber;
-        document.querySelectorAll(".rating").forEach((e) => {e.classList.toggle("hidden")});
+        document.querySelector(".selected-rating").innerHTML = selectedNumber;
+        document.querySelectorAll(".rate-me-page").forEach((e) => {e.classList.toggle("hidden")});
     }
 }

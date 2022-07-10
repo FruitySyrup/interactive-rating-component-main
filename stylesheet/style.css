@@ -78,7 +78,7 @@ ul.rate-me-numbers li {
     color: var(--light-grey);  
 }
 
-ul.rate-me-numbers li:hover {
+ul.rate-me-numbers li:not(.nohover):hover {
     background-color: var(--orange);
     color: var(--white);
     cursor: pointer;
