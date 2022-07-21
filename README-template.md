@@ -1,6 +1,11 @@
+![frontend5](https://user-images.githubusercontent.com/106176876/180295414-58ee77f6-da7c-4892-9df6-3caa5952513a.gif)
+
+
 # Frontend Mentor - Interactive rating component solution
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+Netlify link: https://nimble-meerkat-78e299.netlify.app/
 
 ## Table of contents
 
