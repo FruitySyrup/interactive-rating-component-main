@@ -5,7 +5,7 @@
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
-This is the fourth challenge I've done.
+This is the 6th challenge I've done.
 Netlify link: https://nimble-meerkat-78e299.netlify.app/
 
 *Note that I did not have the figma/sketch file to get exact pixels, colors or styles. I did make deviations from the style-guide.md when they did not match the final design. 
